@@ -1,0 +1,25 @@
+{
+  "name": "lista_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seis": "ts-node ./unid02/exercicio06_mrg",
+    "sete": "ts-node ./unid02/exercicio07_mrg",
+    "oito": "ts-node ./unid02/exercicio08_mrg",
+    "nove": "ts-node ./unid02/exercicio09_mrg",
+    "dez": "ts-node ./unid02/exercicio10_mrg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1"
+  }
+}
