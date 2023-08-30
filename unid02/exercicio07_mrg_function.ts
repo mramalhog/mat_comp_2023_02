@@ -3,7 +3,7 @@ primária a eletricidade (armazenada em uma bateria). Um veículo elétrico e vo
 
 /*2.7. Um veículo possui a capacidade de se mover, expressa pela alteração na sua coordenada de longitude e latitude. Um veículo elétrico é um veículo que possui como fonte de energia
 primária a eletricidade (armazenada em uma bateria). Um veículo elétrico e voador é um veículo que também possui a capacidade de se mover na vertical, expressa pela alteração de sua altitude em relação ao solo. Represente um veículo elétrico e voador utilizando uma cadeia de herança. Defina o código-fonte representativo do modelo em um arquivo separado daquele que faz uso desse e, adicionalmente exemplifique o acesso e a modificação desses atributos através de chamada de suas operações. */
-import { Veiculo_mrg, V_eletrico_mrg, Voador_mrg} from "./exercicio07__mrg_class";
+import { Veiculo_mrg, V_eletrico_mrg, Voador_mrg} from "./exercicio07_mrg_class";
 
 
 const longitudeVeiculo = 10;

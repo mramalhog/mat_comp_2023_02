@@ -15,7 +15,7 @@ class Fibonacci_mrg {
 
         if (n <= 0) {
             return 0;
-        } else if (n === 1) {
+        } else if (n == 1) {
             return 1;
         } else {
             const resultado = this.calcularTermo_mrg(n - 1) + this.calcularTermo_mrg(n - 2);
@@ -28,21 +28,21 @@ class Fibonacci_mrg {
 
 const fibonacci = new Fibonacci_mrg();
 
-console.log(fibonacci.calcularTermo_mrg(5)); // Chamadas: 5, 4, 3, 2, 1, 0
-console.log(fibonacci.calcularTermo_mrg(10)); // Chamadas: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
-console.log(fibonacci.calcularTermo_mrg(5)); // Chamada repetida (usando cache)
+console.log(fibonacci.calcularTermo_mrg(6)); // Chamadas: 5, 4, 3, 2, 1, 0
+console.log(fibonacci.calcularTermo_mrg(8)); // Chamadas: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+console.log(fibonacci.calcularTermo_mrg(10)); // Chamada repetida (usando cache)
 
 
 
 
-class Fibonacci_mrg1 {
-    calcularTermo_mrgH(n: number): number {
+/*class Fibonacci_mrg1 {
+    calcularTermo_mrg(n: number): number {
         if (n <= 0) {
             return 0;
         } else if (n === 1) {
             return 1;
         } else {
-            return this.calcularTermo_mrgH(n - 1) + this.calcularTermo_mrgH(n - 2);
+            return this.calcularTermo_mrg(n - 1) + this.calcularTermo_mrg(n - 2);
         }
     }
 }
@@ -51,4 +51,4 @@ class Fibonacci_mrg1 {
 const fibonacci_mrg1 = new Fibonacci_mrg1();
 
 console.log(fibonacci.calcularTermo_mrg(5)); // Chamadas: 5, 4, 3, 2, 1, 0
-console.log(fibonacci.calcularTermo_mrg(10)); // Chamadas: muitas...
+console.log(fibonacci.calcularTermo_mrg(10)); // Chamadas: muitas...*/

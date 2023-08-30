@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "seis": "ts-node ./unid02/exercicio06_mrg",
-    "sete": "ts-node ./unid02/exercicio07_mrg",
-    "oito": "ts-node ./unid02/exercicio08_mrg",
+    "sete": "ts-node ./unid02/exercicio07_mrg_function",
+    "oitoi": "ts-node ./unid02/exercicio08_iterativo_mrg",
+    "oitor": "ts-node ./unid02/exercicio08_recursivo_mrg",
     "nove": "ts-node ./unid02/exercicio09_mrg",
     "dez": "ts-node ./unid02/exercicio10_mrg"
   },

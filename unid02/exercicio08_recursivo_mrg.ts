@@ -4,22 +4,6 @@ aritmética fornecido pelo professor. Faça um comparativo escrevendo um algorit
 que sejam equivalentes ao recursivo em termos de entradas e saídas mas que utilizem iteração
 ao invés de recursão. Qual sua conclusão?*/
 
-function sequenceIterative_mrg (n:number): number{
-
-    let term: number = 1;
-    let limit: number = 2;
-
-    while(limit<=n){
-        term = term*2;
-        limit = limit +1;
-    }
-    return term;
-}
-
-console.log(sequenceIterative_mrg(10));
-
-//Recursivo
-
 function sequenceRecursive_mrg(n: number): number {
     if (n == 1) {
       return 1;
