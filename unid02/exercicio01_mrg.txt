@@ -1,0 +1,3 @@
+//2.1. Efetue uma definição, através de enumeração, de todos os membros da sua família, considerando apenas parentesco direto de pais, irmãos e filhos. 
+
+enumeração_familia ≝ Pai_Antonio José, Mãe_Valquíria, Filho_Antonio José Júnior
