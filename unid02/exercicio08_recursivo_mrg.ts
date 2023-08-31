@@ -8,7 +8,7 @@ function sequenceRecursive_mrg(n: number): number {
     if (n == 1) {
       return 1;
     } else {
-      return 2 * sequenceRecursive_mrg(n - 1);
+      return 2 + sequenceRecursive_mrg(n - 1);
     }
   }
   
